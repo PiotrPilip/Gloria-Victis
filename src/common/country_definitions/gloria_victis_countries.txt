@@ -1,0 +1,12 @@
+
+# Congress Poland
+CPL = {
+	color = { 201  46  88 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { polish russian }
+	capital = STATE_MAZOVIA
+}
