@@ -1,0 +1,189 @@
+﻿
+STATE_MAZOVIA = {
+    id = 154
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x009F60" "x1AA8FB" "x4161A0" "x46B451" "x4F022C" "x809F60" "x9444C9" "xA3A3A9" "xC17590" "xDC58D0" "xF8C8F6" }
+    traits = { "gs_state_trait_vistula_river" }
+    city = "xA3A3A9"
+    farm = "xC17590"
+    mine = "x9444C9"
+    wood = "x46B451"
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 84
+        bg_logging = 8
+    }
+}
+
+STATE_SILESIA = {
+    id = 155
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1B72C9" "x272E48" "x5E9091" "x6E617F" "x732DC0" "x7B2F62" "x821F52" "x88194B" "x90B12B" "x94D624" "xAF9F20" "xC00121" "xC108EA" "xCE74AB" }
+    traits = { "state_trait_oder_river" "state_trait_upper_silesia_coalfield" }
+    city = "x6E617F"
+    farm = "xAF9F20"
+    mine = "x272E48"
+    wood = "x90B12B"
+    arable_land = 100
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 120
+        bg_iron_mining = 60
+        bg_lead_mining = 54
+        bg_sulfur_mining = 40
+        bg_logging = 14
+    }
+}
+
+STATE_GREATER_POLAND = {
+    id = 156
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0E40DA" "x1CB894" "x1F6F99" "x24BBED" "x2F0D92" "x471A61" "x577EE4" "x738072" "x802161" "x8FE2DB" "xA03316" "xC02B8C" "xC0E0A0" "xDE06BA" "xE165F5" }
+    traits = { "gs_state_trait_vistula_river" }
+    city = "xA03316"
+    farm = "x802161"
+    mine = "xC0E0A0"
+    wood = "x577EE4"
+    arable_land = 60
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 36
+        bg_iron_mining = 36
+        bg_logging = 9
+    }
+}
+
+STATE_LESSER_POLAND = {
+    id = 157
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x29408F" "x40DF20" "x44ACBB" "x496950" "x51A0E0" "x57A53D" "x5FF022" "x6000DF" "x955F09" "x9FEDC5" "xA7B86B" "xAB3C62" "xAEB9A5" "xC061A0" "xD0A0E0" "xE0BB00" "xEB0783" "xF73169" }
+    traits = { "gs_state_trait_vistula_river" "gv_state_trait_minor_black_soil" }
+    city = "xE0BB00"
+    farm = "xAB3C62"
+    mine = "x9FEDC5"
+    wood = "x51A0E0"
+    arable_land = 80
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_coal_mining = 84
+        # Tarnobrzeg sulfur mines
+        bg_sulfur_mining = 40
+        bg_lead_mining = 60
+        bg_logging = 13
+    }
+}
+
+STATE_WEST_PRUSSIA = {
+    id = 158
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0180A0" "x178C99" "x374AC3" "x3E3572" "x41A021" "x55FD02" "x611F2F" "x6E8875" "x7A6061" "x7CB839" "x80A0A0" "x945000" "xBAF66D" }
+    traits = { "state_trait_natural_harbors" "gs_state_trait_vistula_river" }
+    city = "x7CB839"
+    port = "x611F2F"
+    farm = "x41A021"
+    mine = "x945000"
+    wood = "x374AC3"
+    arable_land = 40
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_sulfur_mining = 40
+        bg_logging = 8
+        bg_fishing = 10
+    }
+    naval_exit_id = 3000
+}
+
+STATE_EAST_PRUSSIA = {
+    id = 159
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1E73B9" "x2399A2" "x40A0A0" "x4121A0" "x47C900" "x5428E6" "x72FDF3" "x7D6DC3" "x975566" "x981EBE" "x9FD037" "xABC4AE" "xAEA6D6" "xBF9F20" "xC020A0" "xC04521" "xEEF586" }
+    city = "x1E73B9"
+    port = "x72FDF3"
+    farm = "x2399A2"
+    mine = "xC020A0"
+    wood = "xEEF586"
+    arable_land = 40
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 17
+        bg_fishing = 10
+    }
+    naval_exit_id = 3000
+}
+
+STATE_POSEN = {
+    id = 160
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x085962" "x1FA1E1" "x2141A0" "x2E6001" "x41E0A0" "x635336" "x999CEE" "xC02121" "xC32D8B" "xE513C0" "xF962B2" "xFCC7B7" }
+    city = "x999CEE"
+    farm = "xFCC7B7"
+    mine = "x2141A0"
+    wood = "xE513C0"
+    arable_land = 90
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 24
+        bg_logging = 9
+    }
+}
+
+STATE_WEST_GALICIA = {
+    id = 161
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1161E0" "x11E061" "x56599F" "x5F3456" "x66DCEE" "x906060" "x9061E0" "x90E060" "xA550A9" "xA63CE6" "xC7B7B8" "xC8690C" "xFCC35F" }
+    traits = { "gs_state_trait_vistula_river" }
+    prime_land = { "x5F3456" "xFCC35F" }
+    city = "x906060"
+    farm = "x5F3456"
+    mine = "x5F3456"
+    wood = "x9061E0"
+    arable_land = 120
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 140
+        bg_iron_mining = 33
+        bg_logging = 17
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
+}
+
+STATE_EAST_GALICIA = {
+    id = 162
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x053163" "x11A021" "x489C42" "x4D0305" "x53932F" "x7EDD9E" "x8F9F20" "x9D8087" "xA2805F" "xA3CF78" "xB021A0" "xC1B262" "xC58E1C" "xCAE5B0" "xCDD223" "xD0E061" "xE369C4" "xEFE270" }
+    city = "x11A021"
+    farm = "xC58E1C"
+    mine = "x7EDD9E"
+    wood = "x8F9F20"
+    arable_land = 130
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 92
+        bg_logging = 9
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 60
+    }
+}
+
+STATE_VOLHYNIA = {
+    id = 134
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0EB3C7" "x1A9FFE" "x33471E" "x364496" "x37A636" "x4700D0" "x4D686A" "x5A26AE" "x6168EB" "x6AC779" "x7161A0" "x71E0A0" "x80FB0F" "x8201CF" "x862F77" "x884128" "x905D21" "x9B1B0B" "xAC3079" "xAC6FAE" "xAFEBC8" "xBD8617" "xE001E0" "xE2B51B" "xE2F553" }
+    traits = { "gv_state_trait_minor_black_soil" }
+    city = "x8201CF"
+    farm = "x5A26AE"
+    mine = "x905D21"
+    wood = "xAC3079"
+    arable_land = 90
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 68
+        bg_logging = 11
+    }
+}

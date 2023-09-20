@@ -1,0 +1,16 @@
+﻿gs_state_trait_vistula_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	# Not a major waterway but still played a big role in commerce
+	modifier = {
+		state_infrastructure_add = 10
+	}
+}
+
+gv_state_trait_minor_black_soil = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	# Can be found in the eastern parts of Poland
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.05
+	}
+}
