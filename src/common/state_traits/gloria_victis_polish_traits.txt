@@ -11,6 +11,7 @@ gv_state_trait_minor_black_soil = {
 	
 	# Can be found in the eastern parts of Poland
 	modifier = {
-		building_group_bg_agriculture_throughput_mult = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
