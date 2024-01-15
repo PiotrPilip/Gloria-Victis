@@ -2,7 +2,7 @@
   "name" : "Gloria Victis",
   "id" : "",
   "version" : "0.1",
-  "supported_game_version" : "1.4.2",
+  "supported_game_version" : "1.5.*",
   "short_description" : "Polish Flavour mod",
   "tags" : [],
   "relationships" : [],
